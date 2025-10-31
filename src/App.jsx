@@ -124,7 +124,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/JADWIN/project1">
+    <BrowserRouter>
       <div className="w-full overflow-x-hidden">
         <Routes>
           {/* Optional: keep login/register routes (for reference) */}
