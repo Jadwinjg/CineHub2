@@ -1,0 +1,25 @@
+.movie-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .movie-item {
+    min-width: 150px;
+    text-align: center;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  body, html, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    background-color: #040714;
+    font-family: sans-serif;
+  }
+     
